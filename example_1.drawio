@@ -1,0 +1,207 @@
+<mxfile host="Electron" modified="2024-06-20T03:15:43.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="URfglcnbuzxtz3vrooQY" version="24.5.3" type="device">
+  <diagram id="RXrYLZvdoLvS9CUWtw2R" name="Page-1">
+    <mxGraphModel dx="420" dy="-9" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="BEAM Library - Simplified" element="legend" sensitive="False" id="OeGwApFxlKgCJiaStJj3-12">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+            <mxGeometry x="1720" y="1480" width="650" height="580" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Annotation Elements" element="system" sensitive="False" id="OeGwApFxlKgCJiaStJj3-13">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" parent="OeGwApFxlKgCJiaStJj3-12" vertex="1">
+            <mxGeometry x="20" y="370" width="610" height="190" as="geometry">
+              <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="List" element="list" sensitive="False" id="OeGwApFxlKgCJiaStJj3-14">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OeGwApFxlKgCJiaStJj3-13" vertex="1">
+            <mxGeometry x="170" y="50" width="120" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="OeGwApFxlKgCJiaStJj3-15" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeGwApFxlKgCJiaStJj3-14" vertex="1">
+          <mxGeometry y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OeGwApFxlKgCJiaStJj3-16" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeGwApFxlKgCJiaStJj3-14" vertex="1">
+          <mxGeometry y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OeGwApFxlKgCJiaStJj3-17" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeGwApFxlKgCJiaStJj3-14" vertex="1">
+          <mxGeometry y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <object label="Note" element="note" sensitive="False" id="OeGwApFxlKgCJiaStJj3-18">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="OeGwApFxlKgCJiaStJj3-13" vertex="1">
+            <mxGeometry x="20" y="50" width="120" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" element="info_attachement_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-19">
+          <mxCell style="endArrow=classic;html=1;rounded=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="OeGwApFxlKgCJiaStJj3-13" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="350" y="150" as="sourcePoint" />
+              <mxPoint x="430" y="70" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="dotted_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-20">
+          <mxCell style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="OeGwApFxlKgCJiaStJj3-13" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="490" y="150" as="sourcePoint" />
+              <mxPoint x="570" y="70" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Core Elements" element="system" sensitive="False" id="OeGwApFxlKgCJiaStJj3-21">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" parent="OeGwApFxlKgCJiaStJj3-12" vertex="1">
+            <mxGeometry x="20" y="40" width="610" height="310" as="geometry">
+              <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Data" element="data" sensitive="False" id="OeGwApFxlKgCJiaStJj3-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="20" y="50" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" element="worfklow_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-23">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="OeGwApFxlKgCJiaStJj3-21" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="190" y="274" as="sourcePoint" />
+              <mxPoint x="290" y="190" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="System Container" element="system" sensitive="False" id="OeGwApFxlKgCJiaStJj3-24">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="20" y="170" width="120" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ML Model" element="ml_model" sensitive="False" id="OeGwApFxlKgCJiaStJj3-25">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="20" y="110" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ML Training" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-26">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="170" y="110" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ML Inference" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#d5e8d4;strokeColor=#82b366;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="170" y="50" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data Preparation" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-28">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="320" y="50" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data Analysis" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-29">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="320" y="110" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data Cleaning" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-30">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="320" y="170" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data Movement" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-31">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="470" y="170" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data Retrieval" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-32">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="470" y="50" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data Visualization" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-33">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="470" y="110" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Process: &amp;lt;&lt;i&gt;custom_process&amp;gt;&lt;/i&gt;" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-34">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#f8cecc;strokeColor=#b85450;" parent="OeGwApFxlKgCJiaStJj3-21" vertex="1">
+            <mxGeometry x="470" y="230" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Train and Infer / Deduce" element="system" sensitive="False" id="6YNqJ6hq0YXOWCLJM5oO-1">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=40;shadow=1;" parent="1" vertex="1">
+            <mxGeometry x="1720" y="1210" width="650" height="210" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Image Training Dataset" element="data" sensitive="False" id="OeGwApFxlKgCJiaStJj3-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" parent="6YNqJ6hq0YXOWCLJM5oO-1" vertex="1">
+            <mxGeometry x="20" y="65" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Image Evaluation Dataset" element="data" sensitive="False" id="OeGwApFxlKgCJiaStJj3-2">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" parent="6YNqJ6hq0YXOWCLJM5oO-1" vertex="1">
+            <mxGeometry x="20" y="145" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ML Training" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="6YNqJ6hq0YXOWCLJM5oO-1" vertex="1">
+            <mxGeometry x="180" y="65" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ML Inference" element="process" sensitive="False" id="OeGwApFxlKgCJiaStJj3-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#d5e8d4;strokeColor=#82b366;" parent="6YNqJ6hq0YXOWCLJM5oO-1" vertex="1">
+            <mxGeometry x="340" y="145" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ML Model" element="ml_model" sensitive="False" id="OeGwApFxlKgCJiaStJj3-5">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="6YNqJ6hq0YXOWCLJM5oO-1" vertex="1">
+            <mxGeometry x="340" y="65" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Detected Image Classification" element="data" sensitive="False" id="OeGwApFxlKgCJiaStJj3-6">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" parent="6YNqJ6hq0YXOWCLJM5oO-1" vertex="1">
+            <mxGeometry x="500" y="145" width="120" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" element="worfklow_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-7">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="6YNqJ6hq0YXOWCLJM5oO-1" source="OeGwApFxlKgCJiaStJj3-1" target="OeGwApFxlKgCJiaStJj3-3" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="267.5" y="229" as="sourcePoint" />
+              <mxPoint x="367.5" y="145" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="worfklow_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-8">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="6YNqJ6hq0YXOWCLJM5oO-1" source="OeGwApFxlKgCJiaStJj3-3" target="OeGwApFxlKgCJiaStJj3-5" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="960" y="339" as="sourcePoint" />
+              <mxPoint x="1060" y="255" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="worfklow_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-9">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="6YNqJ6hq0YXOWCLJM5oO-1" source="OeGwApFxlKgCJiaStJj3-5" target="OeGwApFxlKgCJiaStJj3-4" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="310" y="95" as="sourcePoint" />
+              <mxPoint x="350" y="95" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="worfklow_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-10">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="6YNqJ6hq0YXOWCLJM5oO-1" source="OeGwApFxlKgCJiaStJj3-2" target="OeGwApFxlKgCJiaStJj3-4" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="320" y="105" as="sourcePoint" />
+              <mxPoint x="360" y="105" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="worfklow_connector" sensitive="False" id="OeGwApFxlKgCJiaStJj3-11">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="6YNqJ6hq0YXOWCLJM5oO-1" source="OeGwApFxlKgCJiaStJj3-4" target="OeGwApFxlKgCJiaStJj3-6" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="150" y="175" as="sourcePoint" />
+              <mxPoint x="350" y="175" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
