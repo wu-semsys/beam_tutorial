@@ -24,15 +24,14 @@ To complete the tasks, the system will be tested in <span style="colour:orange">
 
 1. [TLDR](#tldr)
 2. [Introduction](#intro)
-3. [draw.io - Howto](#howto)
-4. [Overview - Boxology V2](#overv_box)
-5. [New Elements introduced](#new_elem)
-6. [Properties Used](#props_used)
-7. [Attaching Details to Elements](#attach_details)
-8. [Diagram Requirements](#dia_req)
+3. [draw.io - How-To](#howto)
+4. [Overview - BEAM Notation v3](#overv_box)
+5. [Properties Used](#props_used)
+6. [Attaching Details to Elements](#attach_details)
+7. [Diagram Requirements](#requirements)
     1. [Mandatory Requirements](#mand_req)
     2. [Requirements for Custom Elements](#cust_req)
-9. [References](#refs)
+8. [References](#references)
 
 ## TL;DR <a name="tldr"></a>
 
@@ -113,7 +112,7 @@ For representing simple AI systems, the properties of its elements might not eve
 
 **----------------------------------- End of TL;DR -----------------------------------**
 
-## Introduction
+## Introduction<a name="intro"></a>
 
 As briefly illustrated in the abstract, the extension posed by BEAM aims to address unmet needs identified in the literature and by a real use case. 
 As for the choice of draw.io, several factors were considered: intuitive use, being a free and open-source diagramming tool, being well-known and its provision of required features such as the ability to extend shapes, load custom shapes, allow the manipulation of existing shapes, as well as the ability to save and load pre-defined shapes as templates. An additional key requirement is the ability to save and load the diagram in a machine-readable format for further processing.
@@ -475,9 +474,9 @@ In some cases, assigning custom properties may still not be enough to display so
 
 One detail to note about this attachment strategy is validation. When the information is extracted in the background, only the connection between the workflow element and its attached element(s) is checked. However, any information attached to elements already attached to the workflow element is not checked for validity. The rationale behind this decision is not to limit the options of the diagram creator. For example, the attachment of the neural network structure can be shown in its own sub-process. However, in order not to confuse the connections used in that sub-process, a new type of connector would have to be implemented. It is probably almost impossible to cover every conceivable case. As a result, the design decision was made against full testing. This leaves the disadvantage of not addressing the challenges of standardisation. However, as flexibility has been prioritised, standardisation will unfortunately have to be established by convention of diagram designers.
 
-## Requirements of the Diagram
+## Requirements of the Diagram <a name="requirements"></a>
 
-### Mandatory Requirements
+### Mandatory Requirements <a name="mand_req"></a>
 
 #### Legend
 

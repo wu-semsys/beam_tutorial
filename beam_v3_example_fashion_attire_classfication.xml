@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram id="fDJxj1XVbVg8Fdd_e5Nu" name="Page-1">
-    <mxGraphModel dx="2858" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -327,164 +327,164 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="BEAM Notation - Legend" element="legend" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-1">
+        <object label="BEAM Notation - Legend" element="legend" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-1">
           <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
-            <mxGeometry x="-770" y="720" width="740" height="540" as="geometry" />
+            <mxGeometry x="-810" y="720" width="740" height="540" as="geometry" />
           </mxCell>
         </object>
-        <object label="Annotation Elements" element="system" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-2">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-1">
+        <object label="Annotation Elements" element="system" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-2">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-1">
             <mxGeometry x="10" y="270" width="720" height="260" as="geometry">
               <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="Note" element="note" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-3">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="Note" element="note" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-3">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry x="20" y="50" width="70" height="90" as="geometry" />
           </mxCell>
         </object>
-        <object label="Risk" element="risk_list" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-4">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="Risk" element="risk_list" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-4">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry x="250" y="50.00000000000023" width="120" height="90" as="geometry" />
           </mxCell>
         </object>
-        <object label="Source:" element="list_item" id="wA5JdRAuUyC58_o6wIHa-5">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-4">
+        <object label="Source:" element="list_item" id="JZNKvJ7NNooyEoGhgiS1-5">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-4">
             <mxGeometry y="30" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Severity:" element="list_item" id="wA5JdRAuUyC58_o6wIHa-6">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-4">
+        <object label="Severity:" element="list_item" id="JZNKvJ7NNooyEoGhgiS1-6">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-4">
             <mxGeometry y="60" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Risk Mitigation" element="risk_mitigation_list" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-7">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="Risk Mitigation" element="risk_mitigation_list" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-7">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry x="390" y="50.00000000000023" width="120" height="90" as="geometry" />
           </mxCell>
         </object>
-        <object label="Scope:" element="list_item" id="wA5JdRAuUyC58_o6wIHa-8">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-7">
+        <object label="Scope:" element="list_item" id="JZNKvJ7NNooyEoGhgiS1-8">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-7">
             <mxGeometry y="30" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Strategy:" element="list_item" id="wA5JdRAuUyC58_o6wIHa-9">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-7">
+        <object label="Strategy:" element="list_item" id="JZNKvJ7NNooyEoGhgiS1-9">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-7">
             <mxGeometry y="60" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Risk" element="risk_note" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-10">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="Risk" element="risk_note" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-10">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=22;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry x="275" y="155" width="70" height="90" as="geometry" />
           </mxCell>
         </object>
-        <object label="Risk Mitigation" element="risk_mitigation_note" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-11">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=22;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="Risk Mitigation" element="risk_mitigation_note" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-11">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=22;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry x="415" y="155" width="70" height="90" as="geometry" />
           </mxCell>
         </object>
-        <object label="" element="annotation_connector" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-12">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="" element="annotation_connector" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-12">
+          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="80" y="215" as="sourcePoint" />
               <mxPoint x="200" y="175" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="List" element="list" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-13">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="List" element="list" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-13">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry x="110" y="50" width="120" height="90" as="geometry" />
           </mxCell>
         </object>
-        <object label="Item 1" element="list_item" id="wA5JdRAuUyC58_o6wIHa-14">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-13">
+        <object label="Item 1" element="list_item" id="JZNKvJ7NNooyEoGhgiS1-14">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-13">
             <mxGeometry y="30" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Item 2" element="list_item" id="wA5JdRAuUyC58_o6wIHa-15">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-13">
+        <object label="Item 2" element="list_item" id="JZNKvJ7NNooyEoGhgiS1-15">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-13">
             <mxGeometry y="60" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System&lt;br&gt;&lt;/h1&gt;&lt;p&gt;System Description&lt;br&gt;&lt;/p&gt;" element="system_description" id="wA5JdRAuUyC58_o6wIHa-16">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
-            <mxGeometry x="530" y="50" width="180" height="80" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Context&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Context Description&lt;br&gt;&lt;/p&gt;" element="context_description" id="wA5JdRAuUyC58_o6wIHa-17">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-2">
+        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Context&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Context Description&lt;br&gt;&lt;/p&gt;" element="context_description" id="JZNKvJ7NNooyEoGhgiS1-16">
+          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
             <mxGeometry x="530" y="155" width="180" height="80" as="geometry" />
           </mxCell>
         </object>
-        <object label="Core Elements" element="system" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-18">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-1">
+        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System&lt;br&gt;&lt;/h1&gt;&lt;p&gt;System Description&lt;br&gt;&lt;/p&gt;" element="system_description" id="JZNKvJ7NNooyEoGhgiS1-17">
+          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#82b366;fillColor=#F0FFED;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-2">
+            <mxGeometry x="530" y="50" width="180" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Core Elements" element="system" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-18">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-1">
             <mxGeometry x="10" y="30" width="720" height="230" as="geometry">
               <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="Data" element="data" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-19">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="Data" element="data" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-19">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="20" y="50" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="" element="workflow_connector" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-20">
-          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="" element="workflow_connector" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-20">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="220" y="210" as="sourcePoint" />
               <mxPoint x="340" y="170" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="ML Model" element="ml_model" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-21">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="ML Model" element="ml_model" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-21">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="160" y="50" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="ML Training" element="process" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-22">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="ML Training" element="process" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="300" y="110" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="KR" element="KR" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-23">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#00F2F2;strokeColor=#00A6A6;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="KR" element="KR" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-23">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#00F2F2;strokeColor=#00A6A6;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="160" y="110" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Symbol" element="symbol" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-24">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BAC8D3;strokeColor=#23445D;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="Symbol" element="symbol" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-24">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BAC8D3;strokeColor=#23445D;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="20" y="110" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Actor" element="actor" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-25">
-          <mxCell style="triangle;whiteSpace=wrap;html=1;rotation=-90;horizontal=1;textDirection=vertical-lr;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="Actor" element="actor" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-25">
+          <mxCell style="triangle;whiteSpace=wrap;html=1;rotation=-90;horizontal=1;textDirection=vertical-lr;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="460" y="100" width="80" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object label="System Container" element="system" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-26">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="System Container" element="system" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-26">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="580" y="70" width="120" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object label="ML Inference" element="process" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-27">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F4F5E4;strokeColor=#e5a50a;treeFolding=0;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="ML Inference" element="process" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F4F5E4;strokeColor=#e5a50a;treeFolding=0;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="300" y="50" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Process" element="process" sensitive="False" id="wA5JdRAuUyC58_o6wIHa-28">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FCEDFF;strokeColor=#C358E8;" vertex="1" parent="wA5JdRAuUyC58_o6wIHa-18">
+        <object label="Process" element="process" sensitive="False" id="JZNKvJ7NNooyEoGhgiS1-28">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FCEDFF;strokeColor=#C358E8;" vertex="1" parent="JZNKvJ7NNooyEoGhgiS1-18">
             <mxGeometry x="440" y="50" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System: Fashion Attire Classifier&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;/h1&gt;&lt;p&gt;The AI system in this example model takes images as an input and &lt;br&gt;performs classification into fashion attire categories (e.g. T-shirt, &lt;br&gt;pullover, dress, ...). It is trained on a dataset of labelled fashion &lt;br&gt;attire images.&lt;/p&gt;" element="system_description" id="wA5JdRAuUyC58_o6wIHa-29">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1">
-            <mxGeometry x="10" y="700" width="400" height="120" as="geometry" />
+        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System: Fashion Attire Classifier&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;/h1&gt;&lt;p&gt;The AI system in this example model takes images as an input and &lt;br&gt;performs classification into fashion attire categories (e.g. T-shirt, &lt;br&gt;pullover, dress, ...). It is trained on a dataset of labelled fashion &lt;br&gt;attire images.&lt;/p&gt;" element="system_description" id="JZNKvJ7NNooyEoGhgiS1-29">
+          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#82b366;fillColor=#F0FFED;" vertex="1" parent="1">
+            <mxGeometry x="10" y="695" width="400" height="125" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Context: Faceted Search in Fashion Recommendation&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;/h1&gt;&lt;p&gt;The system aids the recommender system for a fashion online shop. Users &lt;br&gt;can upload images of fashion they like to find similar items available &lt;br&gt;for purchase, alongside text search and other filters. The uploaded&lt;br&gt; image is classified as a type of fashion attire, which the search &lt;br&gt;results are then restricted to (e.g. user uploads photo of a T-shirt, shop &lt;br&gt;recommends only T-shirts). Future development shall focus also on &lt;br&gt;recommending fashion attire similar in style to the uploaded image (e.g.&lt;br&gt; color, patterns, ...).&lt;/p&gt;" element="context_description" id="wA5JdRAuUyC58_o6wIHa-30">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1">
-            <mxGeometry x="10" y="830" width="400" height="200" as="geometry" />
+        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Context: Faceted Search in Fashion Recommendation&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;/h1&gt;&lt;p&gt;The system aids the recommender system for a fashion online shop. Users &lt;br&gt;can upload images of fashion they like to find similar items available &lt;br&gt;for purchase, alongside text search and other filters. The uploaded&lt;br&gt; image is classified as a type of fashion attire, which the search &lt;br&gt;results are then restricted to (e.g. user uploads photo of a T-shirt, shop &lt;br&gt;recommends only T-shirts). Future development shall focus also on &lt;br&gt;recommending fashion attire similar in style to the uploaded image (e.g.&lt;br&gt; color, patterns, ...).&lt;/p&gt;" element="context_description" id="JZNKvJ7NNooyEoGhgiS1-30">
+          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+            <mxGeometry x="10" y="830" width="400" height="210" as="geometry" />
           </mxCell>
         </object>
       </root>
