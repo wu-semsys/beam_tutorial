@@ -68,8 +68,8 @@ In addition to the functional building blocks represented by the core elements, 
 | `Risk Mitigation (List)`                    | green box with folded corner                  | any measure to mitigate risk with multiple details (strategy & scope are just examples) | ![Risk Mitigation (List)](./images/mitigation_list_element.png) |
 | `Note`                                      | white box with folded corner                  | any free-text comment | ![Note](./images/note_element.png) |
 | `List/Enumeration`                          | white box with title and elements             | list of parameters, settings | ![List](./images/list_element.png) |
-| `System Description`                        | text box with heading                         | What does the system do? What are the goals/capabilities/limitations? What is the scope? | ![System Description](./images/system_descr_element.png) |
-| `Context Description`                       | text box with heading                         | Which use cases does the system have? Who uses it? In which organization? | ![Context Description](./images/context_descr_element.png) |
+| `System Description`                        | light-green text box with heading                         | What does the system do? What are the goals/capabilities/limitations? What is the scope? | ![System Description](./images/system_descr_element.png) |
+| `Context Description`                       | light-grey text box with heading                         | Which use cases does the system have? Who uses it? In which organization? | ![Context Description](./images/context_descr_element.png) |
 
 ### Properties Used
 
@@ -383,9 +383,9 @@ The two list entries given in the library are examples, other entries can be add
 
 ![System Description](./images/system_descr_element.png)
 
-This element can be used to add a textual representation of the depicted system as a whole. Note: While this element looks identical to the context description one, there is a semantic difference in the element type for downstream processing of the BEAM model to distinguish between them.
+This element can be used to add a textual representation of the depicted system as a whole.
 
-> Colour: <span style="color:"> --- </span>
+> Colour: <span style="color:#F0FFED"> #F0FFED </span>
 >
 > Shape: text
 >
@@ -395,9 +395,9 @@ This element can be used to add a textual representation of the depicted system 
 
 ![Context Description](./images/context_descr_element.png)
 
-This element can be used to add a textual representation of the context the depicted system is operated in. Note: While this element looks identical to the system description one, there is a semantic difference in the element type for downstream processing of the BEAM model to distinguish between them.
+This element can be used to add a textual representation of the context the depicted system is operated in.
 
-> Colour: <span style="color:"> --- </span>
+> Colour: <span style="color:#F5F5F5"> #F5F5F5 </span>
 >
 > Shape: text
 >
