@@ -409,9 +409,13 @@ This section covers all the properties used in draw.io to distinguish elements m
 
 ### Tree Folding
 
- To cater the requirement of granularity, it often is required to fit additional information in the diagram. Thus, the scripts are distinguishing between elements with the **foldable tree** property set **True** and the elements which do not have this property at assigned as all (Apparently, there is no scenario where a "foldable tree: False" occurs). Should an element have this property and the value is True (to be safe), the outgoing connectors (arrows) will be checked (i.e., the connectors having the element ID as source). For each connector, the property **ignore edges** is searched. Should said property be found in the style information ("ignoreEdge=1"), the target element will be ignored. Should said property not be found however, the target element is considred as a part of the source element. After finding such an element, the source element will receive the attribute **"is_parent_node: True"**, and the child node the complementary attributes  **"is_child_node: True"**, as well as  **"parent_node: {ID of Parent Node}"**.
+ It is often required to fit additional information in the diagram to have different granularities. For different use cases/views it should also be possible to hide this additional information, e.g. for a high-level overview.
 
-This distinction will be relevant for the output file, as it allows to provide an array of all child nodes, as well as each easily searchable child nodes. The Tree Folding parameter is used to assign other "sub-elements" to one element. Said "sub-elements" can then be folded or unfolded by presssing the top right **+** (folded form) or **-** (unfolded form) button.
+ draw.io provides the **Tree Folding** property on elements for this. Elements that have this property receive a small minus/plus icon to hide/show attached details. 
+ When the minus icon is clicked, the outgoing connectors (arrows) will be checked. For each of the connectors, the property **Ignore Edge** is checked. Should the connector have Ignore Edge set to True, the target element will be ignored for the folding and remain visible. Should Ignore Edge be set to False, the target element will be considered as a part of the source element and hidden after clicking the minus icon.
+
+Note: Unfortunately, draw.io does not support tree folding for annotation details directly attached
+to container elements (which have the property Collapsible).
 
 Tree Folding property in draw.io:
 
