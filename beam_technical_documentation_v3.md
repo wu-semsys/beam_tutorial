@@ -63,9 +63,9 @@ In addition to the functional building blocks represented by the core elements, 
 |---|---|---|---|
 | `Annotation Connector`                      | dotted arrow with round arrowhead             | any connection of an annotation element or further details | ![Dotted Connector](./images/dotted_con_element.png) |
 | `Risk (Text)`                               | white box with red title area and elements    | bias in training data, poor output quality | ![Risk (Text)](./images/risk_text_element.png) |
-| `Risk (List)`                               | red box with folded corner                    | any risk with multiple details (source & severity are just examples) | ![Risk (List)](./images/risk_list_element.png) |
+| `Risk (List)`                               | red box with folded corner                    | see above | ![Risk (List)](./images/risk_list_element.png) |
 | `Risk Mitigation (Text)`                    | white box with green title area and elements  | training data selection process, any measure to mitigate risk | ![Risk Mitigation (Text)](./images/mitigation_text_element.png) |
-| `Risk Mitigation (List)`                    | green box with folded corner                  | any measure to mitigate risk with multiple details (strategy & scope are just examples) | ![Risk Mitigation (List)](./images/mitigation_list_element.png) |
+| `Risk Mitigation (List)`                    | green box with folded corner                  | see above | ![Risk Mitigation (List)](./images/mitigation_list_element.png) |
 | `Note`                                      | white box with folded corner                  | any free-text comment | ![Note](./images/note_element.png) |
 | `List/Enumeration`                          | white box with title and elements             | list of parameters, settings | ![List](./images/list_element.png) |
 | `System Description`                        | light-green text box with heading                         | What does the system do? What are the goals/capabilities/limitations? What is the scope? | ![System Description](./images/system_descr_element.png) |
@@ -346,7 +346,7 @@ The red note shape can be used to attach textual information about risks to comp
 ![Risk (List)](./images/risk_list_element.png)
 
 In addtion to the Risk (Text) element, risks can also be represented similar to the List element.
-The two list entries given in the library are examples, other entries can be added and the original ones can be edited or removed.
+Using the provided properties (Description, Risk Type, Probability, ...) ensures seamless automatic processing of the BEAM model.
 
 > Colour: <span style="color:#F8CECC"> F8CECC </span>
 >
@@ -371,7 +371,7 @@ The green note shape can be used to attach textual information about risk mitiga
 ![Risk Mitigation (List)](./images/mitigation_list_element.png)
 
 In addtion to the Risk Mitigation (Text) element, risk mitigation can also be represented similar to the List element.
-The two list entries given in the library are examples, other entries can be added and the original ones can be edited or removed.
+Using the provided properties (Type, Description, Lifecycle Phase) ensures seamless automatic processing of the BEAM model.
 
 > Colour: <span style="color:#D5E8D4"> #D5E8D4 </span>
 >
