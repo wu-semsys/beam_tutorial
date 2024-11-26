@@ -48,12 +48,13 @@ The connection between elements can be represented using the workflow connector 
 | `Symbol`                                    | grey rectangle                    | knowledge graphs, taxonomies      | ![Symbol](./images/symbol_element.png) |
 | `ML Model`                                  | blue hexagon                      | neural network        | ![ML Model](./images/ml_model_element.png) |
 | `Knowledge Representation & Reasoning (KR)` | turquoise hexagon                 | ontology reasoner, rule-learner     | ![KR](./images/kr_element.png) |
-| `Process`                                   | pink rounded rectangle            | data cleaning, data augmentation      | ![Processing](./images/process_element.png) |
-| `ML Inference`                              | light orange rounded rectangle    | (special case of Process for ML Inference to make it more prominent graphically, could also be a specific type of inference) | ![ML Inference](./images/ml_inference_element.png) |
-| `ML Training`                               | purple rounded rectangle          | (special case of Process for ML Training to make it more prominent graphically, could also be a specific type of training, e.g. supervised learning)  | ![ML Training](./images/ml_training_element.png) |
+| `Generation`                              | purple rounded rectangle    | `generate: train` for training an ML model or `generate: engineer` for constructing an ontology | ![Generation](./images/process-generate.png) |
+| `Inference`                               | light orange rounded rectangle          | `infer: deduce` for classification with an ML model or ontology reasoning  | ![Inference](./images/process-infer.png) |
+| `Transformation`                            | pink rounded rectangle            | data cleaning, data augmentation (does not create new information, just mapping/transformation)       | ![Transformation](./images/process-transform.png) |
 | `Actor`                                     | orange rectangle                  | user, engineer        |  ![Actor](./images/actor_element.png) |
-| `System Container`                          | white box with grey title box     | sytem, subsystem, complex process | ![Container](./images/system_container_element.png) |
+| `Container`                          | white box with grey title box     | sytem, subsystem, complex process | ![Container](./images/container.png) |
 | `Workflow Connector`                        | directed solid black arrow        | data/symbolic input/output, usage of a model, interaction of actor | ![Directed Connection](./images/wf_arrow_element.png) |
+| `Auxiliary Input Connector`                        | directed striped black arrow        | any data/symbolic input that is not strictly necessary but used as an additional input if available | ![Auxiliary Input Connector](./images/aux-input-arrow.png) |
 
 ### BEAM v3 Annotation Elements
 
@@ -62,10 +63,10 @@ In addition to the functional building blocks represented by the core elements, 
 | Name | Shape | Example | In draw.io |
 |---|---|---|---|
 | `Annotation Connector`                      | dotted arrow with round arrowhead             | any connection of an annotation element or further details | ![Dotted Connector](./images/dotted_con_element.png) |
-| `Risk (Text)`                               | white box with red title area and elements    | bias in training data, poor output quality | ![Risk (Text)](./images/risk_text_element.png) |
-| `Risk (List)`                               | red box with folded corner                    | see above | ![Risk (List)](./images/risk_list_element.png) |
-| `Risk Mitigation (Text)`                    | white box with green title area and elements  | training data selection process, any measure to mitigate risk | ![Risk Mitigation (Text)](./images/mitigation_text_element.png) |
-| `Risk Mitigation (List)`                    | green box with folded corner                  | see above | ![Risk Mitigation (List)](./images/mitigation_list_element.png) |
+| `Risk`                               | white box with orange title area and elements    | bias in training data, malicious input | ![Risk](./images/risk.png) |
+| `Consequence`                               | white box with red title area and elements    | offensive behavior of language model | ![Consequence](./images/consequence.png) |
+| `Impact`                               | white box with red title area, thick border and elements    | discrimination against certain groups, monetary loss, damage to reputation | ![Impact](./images/impact.png) |
+| `Risk Mitigation`                    | white box with green title area and elements  | training data selection process, any measure to mitigate risk | ![Risk Mitigation (Text)](./images/risk-mitigation.png) |
 | `Note`                                      | white box with folded corner                  | any free-text comment | ![Note](./images/note_element.png) |
 | `List/Enumeration`                          | white box with title and elements             | list of parameters, settings | ![List](./images/list_element.png) |
 | `System Description`                        | light-green text box with heading                         | What does the system do? What are the goals/capabilities/limitations? What is the scope? | ![System Description](./images/system_descr_element.png) |
@@ -217,41 +218,41 @@ The symbol element represents any form of symbolic resource, e.g. a knowledge gr
 >
 > Element property: symbol
 
-### Process
+### Generation
 
-![Processing](./images/process_element.png)
+![Generation](./images/process-generate.png)
 
-Describes a process, e.g. data preparation. The process is not tied to an actor and can, for example, be performed automatically by a script or ML component. 
+The generation element represents a kind of generative process, e.g. `generate: train` for training an ML model or `generate: engineer` for knowledge engineering, i.e. the construction of knowledge bases.
 
-> Colour: <span style="color:#FCEDFF"> #FCEDFF </span>
+> Colour: <span style="color:#EAD0ED"> #EAD0ED </span>
 >
 > Shape: Stadium (rounded=1 in the XML file)
 >
-> Element property: process
+> Element property: generate
 
-### ML Inference
+### Inference
 
-![Processing](./images/ml_inference_element.png)
+![Inference](./images/process-infer.png)
 
-The ML inference element is a special kind of process that represents the inference process in an ML system.
+The inference element represents an inductive or deductive inference process, e.g. `infer: deduce` for running inference with an ML model or ontology reasoning.
 
 > Colour: <span style="color:#F4F5E4"> #F4F5E4 </span>
 >
 > Shape: Stadium (rounded=1 in the XML file)
 >
-> Element property: process
+> Element property: infer
 
-### ML Training
+### Transformation
 
-![Processing](./images/ml_training_element.png)
+![Transformation](./images/process-transform.png)
 
-The ML training element is a special kind of process that represents the training process in an ML system.
+Describes any kind of process in which data/symbols are transformed without generating new knowledge. Examples: various processes for data preparation, mapping
 
-> Colour: <span style="color:#E1D5E7"> #E1D5E7 </span>
+> Colour: <span style="color:#FCEDFF"> #FCEDFF </span>
 >
 > Shape: Stadium (rounded=1 in the XML file)
 >
-> Element property: process
+> Element property: transform
 
 ### Actor
 
@@ -265,9 +266,9 @@ Describes any actor in the system. Said actor does not necessarily have to be hu
 >
 > Element property: actor
 
-### System Container 
+### Container
 
-![Container](./images/system_container_element.png)
+![Container](./images/container.png)
 
 The container element is used to show which elements belong to the same system or system component, e.g. a subsystem or a complex process. For scalability purposes, a diagram may consist of multiple system components, with directed arrows representing the workflow between these components. Also, for readability, this element has been changed from the original all grey background to a grey filled headline box with a transparent background.
 
@@ -275,7 +276,7 @@ The container element is used to show which elements belong to the same system o
 >
 > Shape: Swimlane
 >
-> Element property: system
+> Element property: container
 
 ### Workflow Connection
 
@@ -288,6 +289,18 @@ This is the main type of connection used in BEAM. It shows the order of the work
 > Shape: Arrow (endArrow=classic as style information in XML file)
 >
 > Element property: workflow_connector
+
+### Auxiliary Input Connector
+
+![Auxiliary Input Connector](./images/aux-input-arrow.png)
+
+This connector is similar to the workflow connector, but it is used to represent that some data/symbol is not strictly necessary in the data flow, but will be used if available as additional input.
+
+> Colour: <span style="color:"> --- </span>
+>
+> Shape: striped arrow (endArrow=classic as style information in XML file)
+>
+> Element property: aux_input
 
 ### Annotation Connector <a name="dot_con"></a>
 
@@ -329,49 +342,51 @@ One special characteristic is to be annotated: The list is per se not designed t
 >
 > Element property: list
 
-### Risk (Text)
+### Risk
 
-![Risk](./images/risk_text_element.png)
+![Risk](./images/risk.png)
 
-The red note shape can be used to attach textual information about risks to components or systems.
+This element represents a risk associated with the system, its components or environment.
+Using the provided properties (Description, Type, Probability, ...) ensures seamless automatic processing of the BEAM model.
 
-> Colour: <span style="color:#F8CECC"> #F8CECC </span>
+> Colour: <span style="color:#FFE6CC"> FFE6CC </span>
 >
-> Shape: note
+> Shape: swimlane
 >
-> Element property: risk_note
+> Element property: risk
 
-### Risk (List)
+### Consequence
 
-![Risk (List)](./images/risk_list_element.png)
+![Consequence](./images/consequence.png)
 
-In addtion to the Risk (Text) element, risks can also be represented similar to the List element.
-Using the provided properties (Description, Risk Type, Probability, ...) ensures seamless automatic processing of the BEAM model.
+This element represents the consequence of a risk. It is very similar to the impact element, which has an affected stakeholder. The consequence element can be used as an intermediary between a risk and multiple impacts.
+Using the provided properties (Description, Type) ensures seamless automatic processing of the BEAM model.
 
 > Colour: <span style="color:#F8CECC"> F8CECC </span>
 >
 > Shape: swimlane
 >
-> Element property: risk_list
+> Element property: consequence
 
-### Risk Mitigation (Text)
+### Impact
 
-![Risk Mitigation](./images/mitigation_text_element.png)
+![Impact](./images/impact.png)
 
-The green note shape can be used to attach textual information about risk mitigation to components or systems.
+This element represents an impact that the materialization of a risk has for affected stakeholders.
+Using the provided properties (Description, Type, Affected Stakeholder, Severity) ensures seamless automatic processing of the BEAM model.
 
-> Colour: <span style="color:#D5E8D4"> #D5E8D4 </span>
+> Colour: <span style="color:#F8CECC"> F8CECC </span>
 >
-> Shape: note
+> Shape: swimlane
 >
-> Element property: risk_mitigation_note
+> Element property: impact
 
-### Risk Mitigation (List)
+### Risk Mitigation
 
-![Risk Mitigation (List)](./images/mitigation_list_element.png)
+![Risk Mitigation](./images/risk-mitigation.png)
 
-In addtion to the Risk Mitigation (Text) element, risk mitigation can also be represented similar to the List element.
-Using the provided properties (Type, Description, Lifecycle Phase) ensures seamless automatic processing of the BEAM model.
+This element represents risk mitigation strategies.
+Using the provided properties (Type, Description, Lifecycle Phase, Targeted Component) ensures seamless automatic processing of the BEAM model.
 
 > Colour: <span style="color:#D5E8D4"> #D5E8D4 </span>
 >
