@@ -47,14 +47,14 @@ The connection between elements can be represented using the workflow connector 
 | `Data`                                      | green rectancle                   | textual data, images  | ![Data](./images/data_element.png) |
 | `Symbol`                                    | grey rectangle                    | knowledge graphs, taxonomies      | ![Symbol](./images/symbol_element.png) |
 | `ML Model`                                  | blue hexagon                      | neural network        | ![ML Model](./images/ml_model_element.png) |
-| `Knowledge Representation & Reasoning (KR)` | turquoise hexagon                 | ontology reasoner, rule-learner     | ![KR](./images/kr_element.png) |
-| `Generation`                              | purple rounded rectangle    | `generate: train` for training an ML model or `generate: engineer` for constructing an ontology | ![Generation](./images/process-generate.png) |
-| `Inference`                               | light orange rounded rectangle          | `infer: deduce` for classification with an ML model or ontology reasoning  | ![Inference](./images/process-infer.png) |
-| `Transformation`                            | pink rounded rectangle            | data cleaning, data augmentation (does not create new information, just mapping/transformation)       | ![Transformation](./images/process-transform.png) |
+| `Symbolic Model` | turquoise hexagon                 | ontology, rule-learner     | ![KR](./images/symbolic-model.png) |
+| `ML Training`                              | purple rounded rectangle    | training process of an ML model | ![ML Training](./images/ml-training.png) |
+| `Knowledge Engineering`                              | purple rounded rectangle    | construction of an ontology by a knowledge engineer | ![Knowledge Engineering](./images/knowledge-engineering.png) |
+| `Inference`                               | light orange rounded rectangle          | classification with an ML model or ontology reasoning  | ![Inference](./images/inference.png) |
+| `Transformation`                            | pink rounded rectangle            | data cleaning, data augmentation (does not create new information, just mapping/transformation)       | ![Transformation](./images/transformation.png) |
 | `Actor`                                     | orange rectangle                  | user, engineer        |  ![Actor](./images/actor_element.png) |
 | `Container`                          | white box with grey title box     | sytem, subsystem, complex process | ![Container](./images/container.png) |
 | `Workflow Connector`                        | directed solid black arrow        | data/symbolic input/output, usage of a model, interaction of actor | ![Directed Connection](./images/wf_arrow_element.png) |
-| `Auxiliary Input Connector`                        | directed striped black arrow        | any data/symbolic input that is not strictly necessary but used as an additional input if available | ![Auxiliary Input Connector](./images/aux-input-arrow.png) |
 
 ### BEAM v3 Annotation Elements
 
@@ -71,6 +71,23 @@ In addition to the functional building blocks represented by the core elements, 
 | `List/Enumeration`                          | white box with title and elements             | list of parameters, settings | ![List](./images/list_element.png) |
 | `System Description`                        | light-green text box with heading                         | What does the system do? What are the goals/capabilities/limitations? What is the scope? | ![System Description](./images/system_descr_element.png) |
 | `Context Description`                       | light-grey text box with heading                         | Which use cases does the system have? Who uses it? In which organization? | ![Context Description](./images/context_descr_element.png) |
+
+### Layers
+
+In draw.io, elements and edges can be assigned to different layers. 
+This feature provides great flexibility, e.g. the system architecture and data flow can be on one layer, and risks and mitigation strategies can be on another.
+The visibility of layers can be toggled separately, which enables showing different perspectives of the same model.
+The layer toolbox can be activated via View > Layers, see below.
+
+![Layer Menu](./images/menu-layers.png)
+
+In the layer toolbox, layers can be added, edited and removed, as well as reordered.
+
+![Layer Toolbox](./images/layers_toolbox.png)
+
+To assign one or more elements and connectors to a layer, first select them and then click the three-dots-menu to select the layer to assign them to.
+
+![Layer Selection](./images/layers_selection.png)
 
 ### Properties Used
 
@@ -182,17 +199,17 @@ The Machine Learning (ML) Module represents any Machine Learning component imple
 > Element property: ml_model
 
 
-### Knowledge Representation & Reasoning
+### Symbolic Model
 
-![KR](./images/kr_element.png)
+![Symbolic Model](./images/symbolic-model.png)
 
-This element depicts either a knowledge represenation component, e.g. an ontology, or a reasoning component, e.g. an ontology reasoner or a rule learner.
+This element depicts a symbolic model, e.g. an ontology or a rule learner.
 
 > Colour: <span style="color:#00F2F2"> #00F2F2 </span>
 >
 > Shape: Hexagon
 >
-> Element property: kr
+> Element property: symbolic_model
 
 ### Data
 
@@ -218,33 +235,45 @@ The symbol element represents any form of symbolic resource, e.g. a knowledge gr
 >
 > Element property: symbol
 
-### Generation
+### ML Training
 
-![Generation](./images/process-generate.png)
+![ML Training](./images/ml-training.png)
 
-The generation element represents a kind of generative process, e.g. `generate: train` for training an ML model or `generate: engineer` for knowledge engineering, i.e. the construction of knowledge bases.
+This element represents the training process of an ML model.
 
 > Colour: <span style="color:#EAD0ED"> #EAD0ED </span>
 >
 > Shape: Stadium (rounded=1 in the XML file)
 >
-> Element property: generate
+> Element property: ml_training
+
+### Knowledge Engineering
+
+![Knowledge Engineering](./images/knowledge-engineering.png)
+
+This element represents a knowledge engineering process, e.g. the construction of an ontology by a knowledge engineer.
+
+> Colour: <span style="color:#EAD0ED"> #EAD0ED </span>
+>
+> Shape: Stadium (rounded=1 in the XML file)
+>
+> Element property: knowledge_engineering
 
 ### Inference
 
-![Inference](./images/process-infer.png)
+![Inference](./images/inference.png)
 
-The inference element represents an inductive or deductive inference process, e.g. `infer: deduce` for running inference with an ML model or ontology reasoning.
+The inference element represents an inference process using a model, which can be both an ML model or a symbolic model.
 
 > Colour: <span style="color:#F4F5E4"> #F4F5E4 </span>
 >
 > Shape: Stadium (rounded=1 in the XML file)
 >
-> Element property: infer
+> Element property: inference
 
 ### Transformation
 
-![Transformation](./images/process-transform.png)
+![Transformation](./images/transformation.png)
 
 Describes any kind of process in which data/symbols are transformed without generating new knowledge. Examples: various processes for data preparation, mapping
 
@@ -252,7 +281,7 @@ Describes any kind of process in which data/symbols are transformed without gene
 >
 > Shape: Stadium (rounded=1 in the XML file)
 >
-> Element property: transform
+> Element property: transformation
 
 ### Actor
 
@@ -289,18 +318,6 @@ This is the main type of connection used in BEAM. It shows the order of the work
 > Shape: Arrow (endArrow=classic as style information in XML file)
 >
 > Element property: workflow_connector
-
-### Auxiliary Input Connector
-
-![Auxiliary Input Connector](./images/aux-input-arrow.png)
-
-This connector is similar to the workflow connector, but it is used to represent that some data/symbol is not strictly necessary in the data flow, but will be used if available as additional input.
-
-> Colour: <span style="color:"> --- </span>
->
-> Shape: striped arrow (endArrow=classic as style information in XML file)
->
-> Element property: aux_input
 
 ### Annotation Connector <a name="dot_con"></a>
 
