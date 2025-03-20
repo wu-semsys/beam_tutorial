@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="25.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1">
   <diagram id="fDJxj1XVbVg8Fdd_e5Nu" name="Page-1">
-    <mxGraphModel dx="2562" dy="1118" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4947" dy="2373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,7 @@
           </mxCell>
         </object>
         <object label="Fashion Attire Image Dataset" element="data" sensitive="False" id="BisAavWzUlqn31EeqWev-46">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;treeFolding=1;" parent="BisAavWzUlqn31EeqWev-47" vertex="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;treeFolding=0;" parent="BisAavWzUlqn31EeqWev-47" vertex="1">
             <mxGeometry x="40" y="60" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
@@ -56,24 +56,8 @@
           </mxCell>
         </object>
         <object label="ML Training" element="ml_training" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-91">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" vertex="1" parent="BisAavWzUlqn31EeqWev-47">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" parent="BisAavWzUlqn31EeqWev-47" vertex="1">
             <mxGeometry x="39.99999999999909" y="143" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="" element="annotation_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-54">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" source="BisAavWzUlqn31EeqWev-46" target="l4hCmXzRYedA2R-8xqBa-63" edge="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint y="270" as="sourcePoint" />
-              <mxPoint x="170" y="345.7894736842104" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" element="annotation_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-55">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" source="l4hCmXzRYedA2R-8xqBa-63" target="l4hCmXzRYedA2R-8xqBa-71" edge="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="156.52173913043544" y="290" as="sourcePoint" />
-              <mxPoint x="310" y="153.01980198019805" as="targetPoint" />
-            </mxGeometry>
           </mxCell>
         </object>
         <object label="&lt;div align=&quot;left&quot;&gt;Example classes:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;T-shirt/top&lt;/li&gt;&lt;li&gt;Trouser&lt;/li&gt;&lt;li&gt;Pullover&lt;/li&gt;&lt;li&gt;Dress&lt;/li&gt;&lt;li&gt;...&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" element="note" sensitive="False" id="BisAavWzUlqn31EeqWev-60">
@@ -117,7 +101,7 @@
           </mxCell>
         </object>
         <object label="Inference" element="infererence" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-92">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F4F5E4;strokeColor=#e5a50a;treeFolding=0;" vertex="1" parent="BisAavWzUlqn31EeqWev-61">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F4F5E4;strokeColor=#e5a50a;treeFolding=0;" parent="BisAavWzUlqn31EeqWev-61" vertex="1">
             <mxGeometry x="39.99999999999909" y="141" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
@@ -134,15 +118,6 @@
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="-10" y="569.5510204081631" as="sourcePoint" />
               <mxPoint x="-90" y="502" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="" element="annotation_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-68">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" source="l4hCmXzRYedA2R-8xqBa-45" target="l4hCmXzRYedA2R-8xqBa-58" edge="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="-115" y="348.33333333333326" as="sourcePoint" />
-              <mxPoint x="-70.64781021897807" y="290.0000000000002" as="targetPoint" />
-              <Array as="points" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -164,7 +139,7 @@
           </mxCell>
         </object>
         <object label="Sequential Layer" element="MlModel" sensitive="False" id="BisAavWzUlqn31EeqWev-72">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;treeFolding=1;" parent="BisAavWzUlqn31EeqWev-69" vertex="1">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;treeFolding=1;collapsible=0;" parent="BisAavWzUlqn31EeqWev-69" vertex="1">
             <mxGeometry x="20" y="180" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
@@ -191,36 +166,6 @@
         <object label="Label" element="data" sensitive="False" id="BisAavWzUlqn31EeqWev-77">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" parent="BisAavWzUlqn31EeqWev-69" vertex="1">
             <mxGeometry x="20" y="480" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Parameters" element="list" sensitive="False" id="BisAavWzUlqn31EeqWev-78">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=15;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="BisAavWzUlqn31EeqWev-69" vertex="1">
-            <mxGeometry x="180" y="165" width="120" height="75" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Inputs: 512" element="list_item" id="BisAavWzUlqn31EeqWev-79">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BisAavWzUlqn31EeqWev-78" vertex="1">
-            <mxGeometry y="15" width="120" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Outputs: 512" element="list_item" id="BisAavWzUlqn31EeqWev-80">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BisAavWzUlqn31EeqWev-78" vertex="1">
-            <mxGeometry y="45" width="120" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Parameters" element="list" sensitive="False" id="BisAavWzUlqn31EeqWev-82">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=15;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="BisAavWzUlqn31EeqWev-69" vertex="1">
-            <mxGeometry x="180" y="285" width="120" height="75" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Inputs: 512" element="list_item" id="BisAavWzUlqn31EeqWev-83">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BisAavWzUlqn31EeqWev-82" vertex="1">
-            <mxGeometry y="15" width="120" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Outputs: 10" element="list_item" id="BisAavWzUlqn31EeqWev-84">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="BisAavWzUlqn31EeqWev-82" vertex="1">
-            <mxGeometry y="45" width="120" height="30" as="geometry" />
           </mxCell>
         </object>
         <object label="" element="workflow_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-85">
@@ -279,19 +224,29 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="" element="annotation_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-93">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="BisAavWzUlqn31EeqWev-69" source="BisAavWzUlqn31EeqWev-72" target="BisAavWzUlqn31EeqWev-78" edge="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="-230" y="91" as="sourcePoint" />
-              <mxPoint x="-310" y="66" as="targetPoint" />
-            </mxGeometry>
+        <object label="&lt;div align=&quot;left&quot;&gt;Parameters:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Inputs: 512&lt;/li&gt;&lt;li&gt;Outputs: 512&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" element="note" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-29">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="BisAavWzUlqn31EeqWev-69" vertex="1">
+            <mxGeometry x="180" y="153.5" width="123" height="93" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;div align=&quot;left&quot;&gt;Parameters:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Inputs: 512&lt;/li&gt;&lt;li&gt;Outputs: 512&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" element="note" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-31">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" parent="BisAavWzUlqn31EeqWev-69" vertex="1">
+            <mxGeometry x="180" y="273.5" width="123" height="93" as="geometry" />
           </mxCell>
         </object>
         <object label="" element="annotation_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-94">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="BisAavWzUlqn31EeqWev-69" source="BisAavWzUlqn31EeqWev-74" target="BisAavWzUlqn31EeqWev-82" edge="1">
+          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="BisAavWzUlqn31EeqWev-69" source="BisAavWzUlqn31EeqWev-74" target="Zv7FbLZhU7LbfVfviTEl-31" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="149" y="211" as="sourcePoint" />
-              <mxPoint x="190" y="212" as="targetPoint" />
+              <mxPoint x="180" y="321.56249999999955" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="annotation_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-93">
+          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="BisAavWzUlqn31EeqWev-69" source="BisAavWzUlqn31EeqWev-72" target="Zv7FbLZhU7LbfVfviTEl-29" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-230" y="91" as="sourcePoint" />
+              <mxPoint x="180" y="201.5625" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
@@ -305,9 +260,9 @@
             <mxGeometry x="460" y="15" width="400" height="210" as="geometry" />
           </mxCell>
         </object>
-        <object label="Risk: Misclassification" element="risk" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-45">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-            <mxGeometry x="-280" y="419" width="175" height="230" as="geometry" />
+        <object label="Risk: Inaccurate Prediction" element="risk" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-45">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="-268" y="461" width="175" height="70" as="geometry" />
           </mxCell>
         </object>
         <object label="Description: The classification is not accurate." element="list_item" id="l4hCmXzRYedA2R-8xqBa-46">
@@ -315,67 +270,27 @@
             <mxGeometry y="30" width="175" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Type: Technical" element="list_item" id="l4hCmXzRYedA2R-8xqBa-47">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-45" vertex="1">
-            <mxGeometry y="70" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Probability: High" element="list_item" id="l4hCmXzRYedA2R-8xqBa-48">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-45" vertex="1">
-            <mxGeometry y="100" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Root Source Lifecycle Phase(s): Operate &amp;amp; Monitor" element="list_item" id="l4hCmXzRYedA2R-8xqBa-49">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-45" vertex="1">
-            <mxGeometry y="130" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk Source: Low Accuracy" element="list_item" id="l4hCmXzRYedA2R-8xqBa-50">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-45" vertex="1">
-            <mxGeometry y="170" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Associated Metric(s): Accuracy" element="list_item" id="l4hCmXzRYedA2R-8xqBa-51">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-45" vertex="1">
-            <mxGeometry y="200" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
         <object label="Impact: Unsatisfied Users" element="impact" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-52">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1">
-            <mxGeometry x="-744" y="430.5" width="175" height="207" as="geometry" />
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1">
+            <mxGeometry x="-499" y="567" width="175" height="112" as="geometry" />
           </mxCell>
         </object>
         <object label="Description: Users are unsatisfied with the recommendations and leave the webshop, resulting in lost revenue." element="list_item" id="l4hCmXzRYedA2R-8xqBa-53">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-52" vertex="1">
-            <mxGeometry y="30" width="175" height="77" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Type: Monetary Loss" element="list_item" id="l4hCmXzRYedA2R-8xqBa-54">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-52" vertex="1">
-            <mxGeometry y="107" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Affected Stakeholder: System Provider" element="list_item" id="l4hCmXzRYedA2R-8xqBa-55">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-52" vertex="1">
-            <mxGeometry y="137" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Severity: High" element="list_item" id="l4hCmXzRYedA2R-8xqBa-56">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-52" vertex="1">
-            <mxGeometry y="177" width="175" height="30" as="geometry" />
+            <mxGeometry y="30" width="175" height="82" as="geometry" />
           </mxCell>
         </object>
         <object label="" element="workflow_connector" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-57">
           <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="1" source="PMHqt68TwS_AVeqPHV7_-94" target="l4hCmXzRYedA2R-8xqBa-52" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="-120" y="90" as="sourcePoint" />
-              <mxPoint x="-40" y="50" as="targetPoint" />
+              <mxPoint x="-466.0000000000009" y="629.5" as="sourcePoint" />
+              <mxPoint x="-35" y="87" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="Risk Mitigation: Testing with Focus Group" element="risk_mitigation_list" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-58">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-            <mxGeometry x="-425" y="180" width="175" height="200" as="geometry" />
+        <object label="Risk Control: Testing with Focus Group" element="risk_mitigation_list" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-58">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="-721" y="494" width="175" height="90" as="geometry" />
           </mxCell>
         </object>
         <object label="Description: The classification is tested with a focus group of typical users." element="list_item" id="l4hCmXzRYedA2R-8xqBa-59">
@@ -383,59 +298,19 @@
             <mxGeometry y="40" width="175" height="50" as="geometry" />
           </mxCell>
         </object>
-        <object label="Type: Preventive" element="list_item" id="l4hCmXzRYedA2R-8xqBa-60">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-58" vertex="1">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
+        <object label="Risk: Biased Prediction" element="risk" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-63">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+            <mxGeometry x="-319" y="270" width="175" height="110" as="geometry" />
           </mxCell>
         </object>
-        <object label="Targeted Lifecycle Phase(s): Verify &amp;amp; Validate" element="list_item" id="l4hCmXzRYedA2R-8xqBa-61">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-58" vertex="1">
-            <mxGeometry y="120" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Targeted Level: Component" element="list_item" id="l4hCmXzRYedA2R-8xqBa-62">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-58" vertex="1">
-            <mxGeometry y="160" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk: Bias in Training Data" element="risk" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-63">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-            <mxGeometry y="70" width="175" height="290" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Description: The training data might include bias which is then learnt by the model, leading to biased classification." element="list_item" id="l4hCmXzRYedA2R-8xqBa-64">
+        <object label="Description:The classification is biased, e.g. images with certain colors or patterns are often incorrectly classified as a certain type of fashion attire." element="list_item" id="l4hCmXzRYedA2R-8xqBa-64">
           <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-63" vertex="1">
             <mxGeometry y="30" width="175" height="80" as="geometry" />
           </mxCell>
         </object>
-        <object label="Type: Technical" element="list_item" id="l4hCmXzRYedA2R-8xqBa-65">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-63" vertex="1">
-            <mxGeometry y="110" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Probability: Medium" element="list_item" id="l4hCmXzRYedA2R-8xqBa-66">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-63" vertex="1">
-            <mxGeometry y="140" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Root Source Lifecycle Phase(s): Collect &amp;amp; Process Data" element="list_item" id="l4hCmXzRYedA2R-8xqBa-67">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-63" vertex="1">
-            <mxGeometry y="170" width="175" height="50" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk Source: Training Data Risk" element="list_item" id="l4hCmXzRYedA2R-8xqBa-68">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-63" vertex="1">
-            <mxGeometry y="220" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Associated Metric(s):" element="list_item" id="l4hCmXzRYedA2R-8xqBa-69">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-63" vertex="1">
-            <mxGeometry y="260" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk Mitigation: Careful Dataset Selection and Preparation" element="risk_mitigation_list" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-71">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-            <mxGeometry x="210" y="30" width="175" height="200" as="geometry" />
+        <object label="Risk Control: Careful Dataset Selection and Preparation" element="risk_mitigation_list" sensitive="False" id="l4hCmXzRYedA2R-8xqBa-71">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+            <mxGeometry x="139" y="128" width="175" height="90" as="geometry" />
           </mxCell>
         </object>
         <object label="Description: Carefully select proper dataset, explore data" element="list_item" id="l4hCmXzRYedA2R-8xqBa-72">
@@ -443,530 +318,257 @@
             <mxGeometry y="40" width="175" height="50" as="geometry" />
           </mxCell>
         </object>
-        <object label="Type: Preventive" element="list_item" id="l4hCmXzRYedA2R-8xqBa-73">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-71" vertex="1">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Targeted Lifecycle Phase(s): Collect &amp;amp; Process Data" element="list_item" id="l4hCmXzRYedA2R-8xqBa-74">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-71" vertex="1">
-            <mxGeometry y="120" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Targeted Level: Component" element="list_item" id="l4hCmXzRYedA2R-8xqBa-75">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="l4hCmXzRYedA2R-8xqBa-71" vertex="1">
-            <mxGeometry y="160" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="BEAM Notation - Legend" element="legend" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-50">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
-            <mxGeometry x="-805.0000000000009" y="806" width="740" height="690" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Annotation Elements" element="system" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-51">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-50">
-            <mxGeometry x="10" y="270" width="720" height="410" as="geometry">
-              <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="Note" element="note" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-52">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="20" y="50" width="70" height="90" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="" element="annotation_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-53">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="80" y="215" as="sourcePoint" />
-              <mxPoint x="240" y="170" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="List" element="list" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-54">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="140" y="50" width="120" height="90" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Item 1" element="list_item" id="PMHqt68TwS_AVeqPHV7_-55">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-54">
-            <mxGeometry y="30" width="120" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Item 2" element="list_item" id="PMHqt68TwS_AVeqPHV7_-56">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-54">
-            <mxGeometry y="60" width="120" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk" element="risk" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-57">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;treeFolding=0;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="320" y="50" width="175" height="220" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Description:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" element="list_item" id="PMHqt68TwS_AVeqPHV7_-58">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-57">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-59">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-57">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Probability:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-60">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-57">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Root Source Lifecycle Phase(s):" element="list_item" id="PMHqt68TwS_AVeqPHV7_-61">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-57">
-            <mxGeometry y="120" width="175" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk Source:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-62">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-57">
-            <mxGeometry y="160" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Associated Metric(s):" element="list_item" id="PMHqt68TwS_AVeqPHV7_-63">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-57">
-            <mxGeometry y="190" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Impact" element="impact" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-64">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="524" y="50" width="175" height="150" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Description:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" element="list_item" id="PMHqt68TwS_AVeqPHV7_-65">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-64">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-66">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-64">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Affected Stakeholder:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-67">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-64">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Severity:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-68">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-64">
-            <mxGeometry y="120" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Consequence" element="consequence" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-69">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="320" y="290" width="175" height="90" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Description:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" element="list_item" id="PMHqt68TwS_AVeqPHV7_-70">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-69">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-71">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-69">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk Mitigation" element="risk_mitigation_list" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-72">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="524" y="230" width="175" height="150" as="geometry">
-              <mxRectangle x="524" y="230" width="120" height="30" as="alternateBounds" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="Description:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-73">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-72">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-74">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-72">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Targeted Lifecycle Phase(s):" element="list_item" id="PMHqt68TwS_AVeqPHV7_-75">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-72">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Targeted Level:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-76">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-72">
-            <mxGeometry y="120" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System&lt;br&gt;&lt;/h1&gt;&lt;p&gt;System Description&lt;br&gt;&lt;/p&gt;" element="system_description" id="PMHqt68TwS_AVeqPHV7_-77">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#82b366;fillColor=#F0FFED;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="20" y="240" width="200" height="70" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Context&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Context Description&lt;br&gt;&lt;/p&gt;" element="context_description" id="PMHqt68TwS_AVeqPHV7_-78">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-51">
-            <mxGeometry x="20" y="320" width="200" height="70" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Core Elements" element="system" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-79">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-50">
-            <mxGeometry x="10" y="30" width="720" height="230" as="geometry">
-              <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="Data" element="data" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-80">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="20" y="50" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="" element="workflow_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-81">
-          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="100" y="210" as="sourcePoint" />
-              <mxPoint x="220" y="170" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="ML Model" element="ml_model" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-82">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="160" y="50" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Symbolic Model" element="symbolic_model" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-83">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#00F2F2;strokeColor=#00A6A6;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="160" y="110" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Symbol" element="symbol" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-84">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BAC8D3;strokeColor=#23445D;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="20" y="110" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Actor" element="actor" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-85">
-          <mxCell style="triangle;whiteSpace=wrap;html=1;rotation=-90;horizontal=1;textDirection=vertical-lr;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="460" y="100" width="80" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Container" element="container" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-86">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=40;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="580" y="70" width="120" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Inference" element="infererence" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-87">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F4F5E4;strokeColor=#e5a50a;treeFolding=0;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="440" y="50" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Transformation" element="transformation" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-88">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FCEDFF;strokeColor=#C358E8;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="300" y="170" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="ML Training" element="ml_training" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-89">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="300" y="50" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Knowledge Engineering" element="knowledge_engineering" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-90">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-79">
-            <mxGeometry x="300" y="110" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Consequence" element="consequence" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-94">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" vertex="1" parent="1">
-            <mxGeometry x="-507.0000000000009" y="468.5" width="175" height="131" as="geometry" />
+        <object label="Consequence: Irrelevant Recommendations" element="consequence" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-94">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" parent="1" vertex="1">
+            <mxGeometry x="-496.0000000000009" y="431.5" width="175" height="101" as="geometry" />
           </mxCell>
         </object>
         <object label="Description: Due to misclassification, the user is not shown recommendations for the correct type of fashion." element="list_item" id="PMHqt68TwS_AVeqPHV7_-95">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-94">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="PMHqt68TwS_AVeqPHV7_-94" vertex="1">
             <mxGeometry y="30" width="175" height="71" as="geometry" />
           </mxCell>
         </object>
-        <object label="Type: Degraded Accuracy" element="list_item" id="PMHqt68TwS_AVeqPHV7_-96">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-94">
-            <mxGeometry y="101" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
         <object label="" element="workflow_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-97">
-          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="1" source="l4hCmXzRYedA2R-8xqBa-45" target="PMHqt68TwS_AVeqPHV7_-94">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="1" source="l4hCmXzRYedA2R-8xqBa-45" target="PMHqt68TwS_AVeqPHV7_-94" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="-513" y="620" as="sourcePoint" />
-              <mxPoint x="-645" y="656" as="targetPoint" />
+              <mxPoint x="-215.98995983935765" y="535" as="sourcePoint" />
+              <mxPoint x="-535" y="688" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="BEAM Notation - Legend" element="legend" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-98">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
-            <mxGeometry x="1349.999999999999" y="1266" width="740" height="690" as="geometry" />
+        <object label="Risk Source: Poor Data Quality" element="risk_mitigation_list" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-1">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FBFFD1;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="-87" y="258" width="180" height="97" as="geometry" />
           </mxCell>
         </object>
-        <object label="Annotation Elements" element="system" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-99">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-98">
-            <mxGeometry x="10" y="270" width="720" height="410" as="geometry">
+        <object label="Description: The training data is not of sufficient quality to enable training the model s.t. it can achieve high accuracy." element="list_item" id="QpQJDIqCNIEL5hhY94JS-2">
+          <mxCell style="text;strokeColor=#B46504;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QpQJDIqCNIEL5hhY94JS-1">
+            <mxGeometry y="30" width="180" height="67" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" element="workflow_connector" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-3">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="1" source="QpQJDIqCNIEL5hhY94JS-1" target="l4hCmXzRYedA2R-8xqBa-45">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-426" y="541" as="sourcePoint" />
+              <mxPoint x="-475" y="541" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="annotation_connector" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-4">
+          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1" source="BisAavWzUlqn31EeqWev-46" target="QpQJDIqCNIEL5hhY94JS-1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="309" y="380" as="sourcePoint" />
+              <mxPoint x="198" y="172" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="workflow_connector" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-5">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="1" source="l4hCmXzRYedA2R-8xqBa-58" target="l4hCmXzRYedA2R-8xqBa-52">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-645" y="578" as="sourcePoint" />
+              <mxPoint x="-695" y="578" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Risk Source: Biased Data" element="risk_mitigation_list" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-6">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FBFFD1;strokeColor=#b46504;" vertex="1" parent="1">
+            <mxGeometry x="-111" y="121" width="180" height="97" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Description: The training data might include bias which is then learnt by the model, leading to biased classification." element="list_item" id="QpQJDIqCNIEL5hhY94JS-7">
+          <mxCell style="text;strokeColor=#B46504;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QpQJDIqCNIEL5hhY94JS-6">
+            <mxGeometry y="30" width="180" height="67" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" element="annotation_connector" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-9">
+          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1" source="PMHqt68TwS_AVeqPHV7_-92" target="l4hCmXzRYedA2R-8xqBa-63">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint y="562" as="sourcePoint" />
+              <mxPoint x="-134" y="555" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="workflow_connector" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-10">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="1" source="l4hCmXzRYedA2R-8xqBa-71" target="QpQJDIqCNIEL5hhY94JS-6">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-549" y="296" as="sourcePoint" />
+              <mxPoint x="-663" y="500" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="workflow_connector" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-12">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="1" source="QpQJDIqCNIEL5hhY94JS-6" target="l4hCmXzRYedA2R-8xqBa-63">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-194" y="64" as="sourcePoint" />
+              <mxPoint x="-82" y="116" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="annotation_connector" sensitive="False" id="BisAavWzUlqn31EeqWev-54">
+          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="1" source="BisAavWzUlqn31EeqWev-46" target="QpQJDIqCNIEL5hhY94JS-6" edge="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint y="270" as="sourcePoint" />
+              <mxPoint x="170" y="345.7894736842104" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" element="workflow_connector" sensitive="False" id="QpQJDIqCNIEL5hhY94JS-13">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="1" source="l4hCmXzRYedA2R-8xqBa-63" target="PMHqt68TwS_AVeqPHV7_-94">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-264" y="517" as="sourcePoint" />
+              <mxPoint x="-294" y="527" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="QpQJDIqCNIEL5hhY94JS-14" value="Legend" parent="0" />
+        <object label="BEAM Notation - Legend" element="legend" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-1">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="QpQJDIqCNIEL5hhY94JS-14" vertex="1">
+            <mxGeometry x="-1201" y="-355" width="740" height="580" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Annotation Elements" element="system" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-2">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" parent="Zv7FbLZhU7LbfVfviTEl-1" vertex="1">
+            <mxGeometry x="10" y="270" width="720" height="300" as="geometry">
               <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="Note" element="note" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-100">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="20" y="50" width="70" height="90" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="" element="annotation_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-101">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="PMHqt68TwS_AVeqPHV7_-99">
+        <object label="" element="annotation_connector" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-3">
+          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" parent="Zv7FbLZhU7LbfVfviTEl-2" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="80" y="215" as="sourcePoint" />
-              <mxPoint x="240" y="170" as="targetPoint" />
+              <mxPoint x="420" y="182.5" as="sourcePoint" />
+              <mxPoint x="580" y="137.5" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="List" element="list" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-102">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="140" y="50" width="120" height="90" as="geometry" />
+        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System&lt;br&gt;&lt;/h1&gt;&lt;p&gt;System Description&lt;br&gt;&lt;/p&gt;" element="system_description" id="Zv7FbLZhU7LbfVfviTEl-4">
+          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#82b366;fillColor=#F0FFED;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="120" y="210" width="200" height="70" as="geometry" />
           </mxCell>
         </object>
-        <object label="Item 1" element="list_item" id="PMHqt68TwS_AVeqPHV7_-103">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-102">
-            <mxGeometry y="30" width="120" height="30" as="geometry" />
+        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Context&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Context Description&lt;br&gt;&lt;/p&gt;" element="context_description" id="Zv7FbLZhU7LbfVfviTEl-5">
+          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="400" y="210" width="200" height="70" as="geometry" />
           </mxCell>
         </object>
-        <object label="Item 2" element="list_item" id="PMHqt68TwS_AVeqPHV7_-104">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-102">
-            <mxGeometry y="60" width="120" height="30" as="geometry" />
+        <object label="Note" element="note" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-6">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="620" y="90" width="70" height="90" as="geometry" />
           </mxCell>
         </object>
-        <object label="Risk" element="risk" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-105">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;treeFolding=0;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="320" y="50" width="175" height="220" as="geometry" />
+        <object label="Risk Source: Title" element="risk_mitigation_list" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-7">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FBFFD1;strokeColor=#b46504;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="20" y="50" width="180" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="Description:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" element="list_item" id="PMHqt68TwS_AVeqPHV7_-106">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-105">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
+        <object label="Description" element="list_item" id="Zv7FbLZhU7LbfVfviTEl-8">
+          <mxCell style="text;strokeColor=#B46504;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Zv7FbLZhU7LbfVfviTEl-7" vertex="1">
+            <mxGeometry y="30" width="180" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-107">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-105">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
+        <object label="Risk: Title" element="risk" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-9">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="220" y="50" width="180" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="Probability:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-108">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-105">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
+        <object label="Description" element="list_item" id="Zv7FbLZhU7LbfVfviTEl-10">
+          <mxCell style="text;strokeColor=#D79B00;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Zv7FbLZhU7LbfVfviTEl-9" vertex="1">
+            <mxGeometry y="30" width="180" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Root Source Lifecycle Phase(s):" element="list_item" id="PMHqt68TwS_AVeqPHV7_-109">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-105">
-            <mxGeometry y="120" width="175" height="40" as="geometry" />
+        <object label="Consequence: Title" element="consequence" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-11">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="420" y="50" width="180" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="Risk Source:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-110">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-105">
-            <mxGeometry y="160" width="175" height="30" as="geometry" />
+        <object label="Description" element="list_item" id="Zv7FbLZhU7LbfVfviTEl-12">
+          <mxCell style="text;strokeColor=#B85450;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Zv7FbLZhU7LbfVfviTEl-11" vertex="1">
+            <mxGeometry y="30" width="180" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Associated Metric(s):" element="list_item" id="PMHqt68TwS_AVeqPHV7_-111">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-105">
-            <mxGeometry y="190" width="175" height="30" as="geometry" />
+        <object label="Impact: Title" element="impact" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-13">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="20" y="130" width="180" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="Impact" element="impact" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-112">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="524" y="50" width="175" height="150" as="geometry" />
+        <object label="Description" element="list_item" id="Zv7FbLZhU7LbfVfviTEl-14">
+          <mxCell style="text;strokeColor=#B85450;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="Zv7FbLZhU7LbfVfviTEl-13" vertex="1">
+            <mxGeometry y="30" width="180" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Description:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" element="list_item" id="PMHqt68TwS_AVeqPHV7_-113">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-112">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
+        <object label="Risk Control: Title" element="risk_mitigation_list" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-15">
+          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="Zv7FbLZhU7LbfVfviTEl-2" vertex="1">
+            <mxGeometry x="220" y="130" width="180" height="60" as="geometry" />
           </mxCell>
         </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-114">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-112">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
+        <object label="Description" element="list_item" id="Zv7FbLZhU7LbfVfviTEl-16">
+          <mxCell style="text;strokeColor=#82B366;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Zv7FbLZhU7LbfVfviTEl-15" vertex="1">
+            <mxGeometry y="30" width="180" height="30" as="geometry" />
           </mxCell>
         </object>
-        <object label="Affected Stakeholder:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-115">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-112">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Severity:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-116">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-112">
-            <mxGeometry y="120" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Consequence" element="consequence" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-117">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="320" y="290" width="175" height="90" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Description:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" element="list_item" id="PMHqt68TwS_AVeqPHV7_-118">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-117">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-119">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-117">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Risk Mitigation" element="risk_mitigation_list" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-120">
-          <mxCell style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="524" y="230" width="175" height="150" as="geometry">
-              <mxRectangle x="524" y="230" width="120" height="30" as="alternateBounds" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="Description:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-121">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-120">
-            <mxGeometry y="30" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Type:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-122">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-120">
-            <mxGeometry y="60" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Targeted Lifecycle Phase(s):" element="list_item" id="PMHqt68TwS_AVeqPHV7_-123">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-120">
-            <mxGeometry y="90" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Targeted Level:" element="list_item" id="PMHqt68TwS_AVeqPHV7_-124">
-          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-120">
-            <mxGeometry y="120" width="175" height="30" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System&lt;br&gt;&lt;/h1&gt;&lt;p&gt;System Description&lt;br&gt;&lt;/p&gt;" element="system_description" id="PMHqt68TwS_AVeqPHV7_-125">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#82b366;fillColor=#F0FFED;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="20" y="240" width="200" height="70" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Context&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Context Description&lt;br&gt;&lt;/p&gt;" element="context_description" id="PMHqt68TwS_AVeqPHV7_-126">
-          <mxCell style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-99">
-            <mxGeometry x="20" y="320" width="200" height="70" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Core Elements" element="system" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-127">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-98">
+        <object label="Core Elements" element="system" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-17">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=30;" parent="Zv7FbLZhU7LbfVfviTEl-1" vertex="1">
             <mxGeometry x="10" y="30" width="720" height="230" as="geometry">
               <mxRectangle x="20" y="300" width="150" height="30" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="Data" element="data" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-128">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
+        <object label="Data" element="data" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-18">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#97D077;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
             <mxGeometry x="20" y="50" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="" element="workflow_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-129">
-          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" edge="1" parent="PMHqt68TwS_AVeqPHV7_-127">
+        <object label="" element="workflow_connector" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-19">
+          <mxCell style="endArrow=classic;html=1;rounded=0;ignoreEdge=1;" parent="Zv7FbLZhU7LbfVfviTEl-17" edge="1">
             <mxGeometry width="50" height="50" relative="1" as="geometry">
               <mxPoint x="100" y="210" as="sourcePoint" />
               <mxPoint x="220" y="170" as="targetPoint" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="ML Model" element="ml_model" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-130">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
-            <mxGeometry x="160" y="50" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Symbolic Model" element="symbolic_model" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-131">
-          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#00F2F2;strokeColor=#00A6A6;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
-            <mxGeometry x="160" y="110" width="120" height="40" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Symbol" element="symbol" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-132">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BAC8D3;strokeColor=#23445D;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
+        <object label="Symbol" element="symbol" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-20">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#BAC8D3;strokeColor=#23445D;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
             <mxGeometry x="20" y="110" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Actor" element="actor" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-133">
-          <mxCell style="triangle;whiteSpace=wrap;html=1;rotation=-90;horizontal=1;textDirection=vertical-lr;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
-            <mxGeometry x="460" y="100" width="80" height="120" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="Container" element="container" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-134">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=40;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
+        <object label="Container" element="container" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-21">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;startSize=40;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
             <mxGeometry x="580" y="70" width="120" height="120" as="geometry" />
           </mxCell>
         </object>
-        <object label="Inference" element="infererence" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-135">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F4F5E4;strokeColor=#e5a50a;treeFolding=0;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
+        <object label="Inference" element="infererence" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#F4F5E4;strokeColor=#e5a50a;treeFolding=0;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
             <mxGeometry x="440" y="50" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Transformation" element="transformation" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-136">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FCEDFF;strokeColor=#C358E8;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
+        <object label="Transformation" element="transformation" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-23">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FCEDFF;strokeColor=#C358E8;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
             <mxGeometry x="300" y="170" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="ML Training" element="ml_training" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-137">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
-            <mxGeometry x="300" y="50" width="120" height="40" as="geometry" />
+        <object label="Training" element="ml_training" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-24">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
+            <mxGeometry x="300.0000000000009" y="50.00000000000023" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Knowledge Engineering" element="knowledge_engineering" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-138">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" vertex="1" parent="PMHqt68TwS_AVeqPHV7_-127">
-            <mxGeometry x="300" y="110" width="120" height="40" as="geometry" />
+        <object label="Engineering" element="knowledge_engineering" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-25">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#EAD0ED;strokeColor=#9673a6;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
+            <mxGeometry x="300.00000000000114" y="110.00000000000023" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="" element="annotation_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-139">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" source="PMHqt68TwS_AVeqPHV7_-120" target="PMHqt68TwS_AVeqPHV7_-140" parent="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="2324.999999999999" y="1796" as="sourcePoint" />
-              <mxPoint x="1609.999999999999" y="1716" as="targetPoint" />
-            </mxGeometry>
+        <object label="Semantic Model" element="symbolic_model" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-26">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#00F2F2;strokeColor=#00A6A6;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
+            <mxGeometry x="160.0000000000009" y="110.00000000000023" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="&lt;div&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Preventive&lt;/li&gt;&lt;li&gt;Corrective&lt;/li&gt;&lt;li&gt;Detective&lt;/li&gt;&lt;li&gt;Other&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Targeted Lifecycle Phase(s)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Development phase&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Plan &amp;amp; design&lt;/li&gt;&lt;li&gt;Collect &amp;amp; process data&lt;/li&gt;&lt;li&gt;Build &amp;amp; interpret model&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Verify &amp;amp; Validate &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;i&gt;Operational phase&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Deploy&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Operate &amp;amp; monitor&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Targeted Level&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Component&lt;/li&gt;&lt;li&gt;System&lt;/li&gt;&lt;li&gt;Environment&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;" element="note" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-140">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-            <mxGeometry x="2119.999999999999" y="1746" width="250" height="380" as="geometry" />
+        <object label="Statistical Model" element="MlModel" sensitive="False" id="Zv7FbLZhU7LbfVfviTEl-27">
+          <mxCell style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
+            <mxGeometry x="160.0000000000009" y="50" width="120" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="" element="annotation_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-141">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" source="PMHqt68TwS_AVeqPHV7_-112" target="PMHqt68TwS_AVeqPHV7_-142" parent="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="2334.999999999999" y="1806" as="sourcePoint" />
-              <mxPoint x="1619.999999999999" y="1726" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Social Impact&amp;nbsp;&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Overreliance &lt;br&gt;&lt;/li&gt;&lt;li&gt;Wellbeing &amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Distortion In Human Behaviour &lt;br&gt;&lt;/li&gt;&lt;li&gt;Physical Injury &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Psychological Harm &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;i&gt;Business Impact &lt;/i&gt;&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Monetary loss&amp;nbsp;&lt;/li&gt;&lt;li&gt;Compliance &lt;br&gt;&lt;/li&gt;&lt;li&gt;Legal &lt;br&gt;&lt;/li&gt;&lt;li&gt;Reputation &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Severity&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;High&lt;/li&gt;&lt;li&gt;Medium&lt;/li&gt;&lt;li&gt;Low&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" element="note" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-142">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-            <mxGeometry x="2119.999999999999" y="1406" width="250" height="300" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="&lt;div&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Bias &lt;br&gt;&lt;/li&gt;&lt;li&gt;Decreased Robustness &lt;br&gt;&lt;/li&gt;&lt;li&gt;Decreased Security &lt;br&gt;&lt;/li&gt;&lt;li&gt;Degraded Accuracy &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" element="note" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-143">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-            <mxGeometry x="1669.999999999999" y="1986" width="200" height="130" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="" element="annotation_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-144">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" source="PMHqt68TwS_AVeqPHV7_-117" target="PMHqt68TwS_AVeqPHV7_-143" parent="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="2068.999999999999" y="1671" as="sourcePoint" />
-              <mxPoint x="2159.999999999999" y="1671" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="&lt;div&gt;&lt;b&gt;Type&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Business&lt;/li&gt;&lt;li&gt;Technical&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Probability&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;High&lt;/li&gt;&lt;li&gt;Medium&lt;/li&gt;&lt;li&gt;Low&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Root Source Lifecycle Phase(s)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Development phase&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Plan &amp;amp; design&lt;/li&gt;&lt;li&gt;Collect &amp;amp; process data&lt;/li&gt;&lt;li&gt;Build &amp;amp; interpret model&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Verify &amp;amp; Validate &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;i&gt;Operational phase&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Deploy&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Operate &amp;amp; monitor &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Risk Source&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;i&gt;Attack&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Adversarial Attack&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Data Poisoning&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Model Evasion&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Model Inversion&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;i&gt;Data Risk&amp;nbsp; &lt;br&gt;&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Error in data collection&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;Error in data preparation&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Input data risk&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Test data risk&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Training data risk&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Unavailability of data&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Validation risk&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Wrong data design choice&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;i&gt;Model Risk&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Organizational Risk &amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Insufficient human oversight&amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Insufficient instruction &amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Lack of transparency &amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Staff incompetence &amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;i&gt;Performance Risk&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/i&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Low accuracy&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Low robustness&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;Low security&amp;nbsp; &lt;br&gt;&lt;/li&gt;&lt;li&gt;System risk&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;b&gt;Associated Metrics (Examples)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;ML metrics: e.g., accuracy, precision, recall, sensitivity, specificity &lt;br&gt;&lt;/li&gt;&lt;li&gt;Equal performance&lt;br&gt;&lt;/li&gt;&lt;li&gt;Time until adversary’s success &amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;False acceptance rate&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;False rejection rate &lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" element="note" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-145">
-          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-            <mxGeometry x="1039.999999999999" y="1976" width="420" height="850" as="geometry" />
-          </mxCell>
-        </object>
-        <object label="" element="annotation_connector" sensitive="False" id="PMHqt68TwS_AVeqPHV7_-146">
-          <mxCell style="endArrow=oval;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" source="PMHqt68TwS_AVeqPHV7_-105" target="PMHqt68TwS_AVeqPHV7_-145" parent="1">
-            <mxGeometry width="50" height="50" relative="1" as="geometry">
-              <mxPoint x="1770.999999999999" y="1926" as="sourcePoint" />
-              <mxPoint x="1757.999999999999" y="2006" as="targetPoint" />
-            </mxGeometry>
-          </mxCell>
-        </object>
+        <mxCell id="Zv7FbLZhU7LbfVfviTEl-28" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Actor&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.acute_triangle;dx=0.5;strokeColor=#D79B00;fillColor=#FFE6CC;labelPosition=center;align=center;" parent="Zv7FbLZhU7LbfVfviTEl-17" vertex="1">
+          <mxGeometry x="440" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
