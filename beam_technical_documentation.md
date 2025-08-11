@@ -1,6 +1,6 @@
-# BEAM Visual Notation - Version 3 - User Manual
+# BEAM Visual Notation - User Manual
 
-_Authors: Bernhard Kollmann (original version), Alexander Prock (adaptation for version 3)_  
+_Author: Alexander Prock_  
 _Contact: alexander.prock[at]wu.ac.at_
 
 This documentation revolves around the visual notation of the _Boxology Extensive Annotation Model (BEAM)_. It extends the boxology presented by [van Bekkum and colleagues](#van_bekkum).
@@ -9,11 +9,11 @@ BEAM extends the boxology in two ways:
 1. with elements to capture engineering-relevant information to enable the use of BEAM during AI system design and development
 2. with elements to add a risk and mitigation perspective
 
-In this document, version 3 of the BEAM notation is described for the user perspective. It is based on the [more extensive technical documentation for version 2](./beam_v2/beam_technical_documentation.md).
+In this document, the current version of the BEAM notation is described for the user perspective. It is based on a more extensive technical documentation of a previous version of BEAM (before semantic versioning was used), originally written by Bernhard Kollmann alongside his [master thesis](https://semantic-systems.org/wp-content/uploads/2024/11/Kollmann.pdf).
 
 A prototype of the BEAM notation was developed as a library for the diagramming tool [draw.io](draw.io).
 
-## BEAM v3 Core Elements
+## BEAM Core Elements
 
 The core elements in the table below can be used to represent the building blocks of (hybrid) AI systems.
 The connection between elements can be represented using the workflow connector (black arrow).
@@ -25,14 +25,14 @@ The connection between elements can be represented using the workflow connector 
 | `Statistical Model` | machine learning model | blue hexagon | neural network | ![Statistical Model](./images/stat-model.png) |
 | `Semantic Model` | semantic/symbolic model | turquoise hexagon | ontology, rule-learner | ![Semantic Model](./images/sem-model.png) |
 | `Training` | training process of a (ML) model | purple rounded rectangle | gradient descent, backpropagation | ![Training](./images/training.png) |
-| `Engineering` | engineering process, often by human actor | purple rounded rectangle | construction of an ontology by a knowledge engineer | ![Engineering](./images/engineering.png) |
-| `Inference` | inference process using a model | light orange rounded rectangle | classification with an ML model or ontology reasoning  | ![Inference](./images/inference.png) |
+| `Engineering` | engineering process, often by human actor | dark purple rounded rectangle | construction of an ontology by a knowledge engineer | ![Engineering](./images/engineering.png) |
+| `Inference` | inference process using a model | light orange rounded rectangle | classification using an ML model or ontology reasoning  | ![Inference](./images/inference.png) |
 | `Transformation` | any kind of process in which data/symbols are transformed without generating new knowledge | pink rounded rectangle            | data cleaning, data augmentation       | ![Transformation](./images/transformation.png) |
 | `Actor` | any actor in the system, not necessarily human | orange rectangle | user, engineer |  ![Actor](./images/actor-element.png) |
-| `Container` | logial grouping of elements, e.g. to denote a subsystem or a complex process | white box with grey title box | sytem, subsystem, complex process | ![Container](./images/container.png) |
+| `Container` | logical grouping of elements, e.g. to denote a subsystem or a complex process | white box with grey title box | sytem, subsystem, complex process | ![Container](./images/container.png) |
 | `Workflow Connector` | (i) connection between core elements to indicate the workflow, (ii) between elements within the risk perspective | directed solid black arrow | data/symbolic input/output, usage of a model, interaction of actor, between Risk Source and Risk, Risk and Consequence, Consequence and Impact or Risk Control and any of the other elements of the risk perspective | ![Directed Connection](./images/wf_arrow_element.png) |
 
-## BEAM v3 Annotation Elements
+## BEAM Annotation Elements
 
 In addition to the functional building blocks represented by the core elements, various annotations can be attached to systems represented in BEAM, as well as their components.
 
@@ -58,7 +58,6 @@ The legend provided by the BEAM library includes all elements:
 An example AI system represented in BEAM notation (for a more thorough explanation of this example, see the instructions PDF file):
 
 ![BEAM Example](./images/example-fashion-attire.png)
-
 
 ## draw.io - How-To<a name="howto"></a>
 
