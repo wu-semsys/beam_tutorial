@@ -8,4 +8,4 @@ BEAM follows [semantic versioning](https://semver.org/).
 
 For a quick start see the [Instructions PDF](./BEAM-instructions.pdf). More detailed documentation can be found in the [User Manual](./beam_technical_documentation.md).
 
-The file [beam_lib_v0-1-0.xml](./beam_lib_v0-1-0.xml) contains the latest version of the draw.io library. An example diagram of a simple ML-based system can be found [here](./beam_example_fashion_attire_classfication.xml).
+The file [beam_lib_v0-1-1.xml](./beam_lib_v0-1-1.xml) contains the latest version of the draw.io library. An example diagram of a simple ML-based system can be found [here](./beam_example_fashion_attire_classfication.xml).
